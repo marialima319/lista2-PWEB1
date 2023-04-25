@@ -1,0 +1,6 @@
+num = input("Digite uma lista de números: ").split()
+num = [int(numero) for numero in num]
+
+numeros_ord = sorted(num)
+
+print(f"A ordem crescente é: {numeros_ord}")
