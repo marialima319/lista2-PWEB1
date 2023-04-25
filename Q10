@@ -1,0 +1,10 @@
+num = input("Digite uma lista de números: ").split()
+num = [int(numero) for numero in num]
+
+pares = []
+
+for numero in num:
+    if numero % 2 == 0:
+        pares.append(numero)
+
+print(f"Os números pares são: {pares}")
