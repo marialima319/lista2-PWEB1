@@ -1,0 +1,10 @@
+numero = float(input("Digite um inteiro: "))
+if numero >= 0:
+    print("Positivo")
+else:
+    print("Negativo")
+
+
+
+
+
